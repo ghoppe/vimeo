@@ -6,7 +6,7 @@ module Vimeo
       #
       # @param [String] album_id The album's id.
       def self.videos(album_id)
-        get("/album/#{album_id}/videos.json")
+        get("/albums/#{album_id}/videos.json")
       end
 
       # Returns an album's metadata.
